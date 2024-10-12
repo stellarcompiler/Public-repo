@@ -6,7 +6,10 @@ str1=input("Enter any string :\n")
 out1=ch.upper()
 out2=ch.lower()
 str2=ch+" "+str1
-char=ch[0:5]
+print("Extract substring")
+x=int(input("From :"))
+y=int(input("To :"))
+char=ch[x:(y+1)]
 
 print("Uppercase :",out1)
 print("Lowercase :",out2)
