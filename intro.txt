@@ -1,0 +1,35 @@
+Welcome to git and github
+
+    (i). Git and Github are version control system that can track Changes to a file and control the file dynamics
+    (ii). Git and Github and separate systems - 
+        Git is a local version control systems
+        Github is a cloud based version control system
+
+    HOW TO USE GIT AND GITHUB:
+
+Step 1: Git Configuration
+       > Install Git and create a github User profile
+       > Enter to command prompt and Configure Git by [git config --global user.name "github username"  git config --global user.mail "Enter the email used for Github"]
+       > Check the status of git by [git config --list]
+       > Exit and go to your local repository(Desired folder), and open a terminal on that folder.
+       > Open Visual Studio Code (VS CODE) by ["code ."]
+       > Initialise Git in terminal [git init]
+       > Open a file [.txt, .py, .js, etc....]
+       
+       End of Step 1
+
+Step 2: Adding and Commiting
+    > Type in terminal : git add . (for adding a group of files) or git add <file name>
+    > After "add" command the files go for staging 
+    > For checking the staging : type git status
+    > Type git commit -m "Type any message" for commiting it into the local repository
+    > type git log for the commit status and Commit "Hash" 
+    > Now the file is stored in the local repository
+
+    End of Step 2
+
+Step 3: Pushing the file to Github
+    > Type git remote add origin <"The github repo url"> for acknowledge the git about cloud repo
+    > Type git remote -v for init status
+    > Type git push origin <branch name> for uploading
+    > Check on github repo for file updation
