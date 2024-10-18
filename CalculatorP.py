@@ -18,7 +18,7 @@ elif (ch=="/"or ch=="Div"or ch=="div"or ch=="Division"or ch=="division"):
     div=x//y
     rem=x%y
     print("Quotient :",div)
-    print("Reminder :",rem)
+    print("Remainder :",rem)
 elif (ch=="*" or ch=="mul" or ch=="Mul"):
     m=x*y
     print("Multiplied :",m)
